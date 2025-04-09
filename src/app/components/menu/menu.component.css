@@ -1,0 +1,64 @@
+/* Font & base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#1e1e2f, #2a2a40);
+    color: #fff;
+    
+  }
+  
+  /* Navbar */
+  .navbar {
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    margin-right: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #00ffc3 !important;
+  }
+  
+  /* Center Button Container
+  .center-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    text-align: center;
+  } */
+  
+  /* Glowing Glass Button */
+  /* .glass-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .glass-btn:hover {
+    background: rgba(0, 255, 195, 0.15);
+    box-shadow: 0 0 20px #00ffc3;
+    border-color: #00ffc3;
+    color: #00ffc3;
+  } */
+  

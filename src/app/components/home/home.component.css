@@ -1,0 +1,9 @@
+img {
+  margin: 0; /* Corrected from 'margin: o;' */
+  padding: 0;
+  width: 100vw;
+  margin-top: 0;
+  height: calc(100vh - 56px); 
+  object-fit: cover;
+  display: block;
+}
